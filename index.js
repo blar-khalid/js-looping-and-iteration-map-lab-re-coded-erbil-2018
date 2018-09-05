@@ -4,3 +4,4 @@ return  aray.map(function(drivers){
  return drivers.toLowerCase();
 })
 }
+nameToAttributes()
