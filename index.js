@@ -6,8 +6,8 @@ return  aray.map(function(drivers){
 }
 function nameToAttributes (aray) {
   return aray.map(function (drivers) {
-    const driverFirst = driver.split(' ')[0];
-    const driverLast = driver.split(' ')[1];
+    const driverFirst = drivers.split(' ')[0];
+    const driverLast = drivers.split(' ')[1];
 
     return { firstName: driverFirst, lastName: driverLast };
   });
