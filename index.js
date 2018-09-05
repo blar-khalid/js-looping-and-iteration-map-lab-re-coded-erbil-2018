@@ -12,4 +12,8 @@ function nameToAttributes (aray) {
     return { firstName: driverFirst, lastName: driverLast };
   });
 }
-function attributesToPhrase(){}
+function attributesToPhrase(aray) {
+  return aray.map(function (driver) {
+    return `${driver.name} is from ${driver.hometown}`;
+  });
+}
