@@ -12,3 +12,4 @@ function nameToAttributes (aray) {
     return { firstName: driverFirst, lastName: driverLast };
   });
 }
+function attributesToPhrase(){}
